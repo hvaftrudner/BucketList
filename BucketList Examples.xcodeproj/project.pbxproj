@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E00CDC98262E200D005991F1 /* MKPointAnnotation-Codable.swift in Sources */ = {isa = PBXBuildFile; fileRef = E00CDC97262E200D005991F1 /* MKPointAnnotation-Codable.swift */; };
+		E024AD53262764390045258A /* MKPointAnnotation-Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = E024AD52262764390045258A /* MKPointAnnotation-Object.swift */; };
+		E024AD56262764E20045258A /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E024AD55262764E20045258A /* EditView.swift */; };
+		E024AD59262766BE0045258A /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = E024AD58262766BE0045258A /* Result.swift */; };
 		E032508A2623941300CBAC90 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E03250892623941300CBAC90 /* AppDelegate.swift */; };
 		E032508C2623941300CBAC90 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E032508B2623941300CBAC90 /* SceneDelegate.swift */; };
 		E032508E2623941300CBAC90 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E032508D2623941300CBAC90 /* ContentView.swift */; };
 		E03250902623941400CBAC90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E032508F2623941400CBAC90 /* Assets.xcassets */; };
 		E03250932623941400CBAC90 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E03250922623941400CBAC90 /* Preview Assets.xcassets */; };
 		E03250962623941400CBAC90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E03250942623941400CBAC90 /* LaunchScreen.storyboard */; };
+		E06316412625B55A00D44E10 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E06316402625B55A00D44E10 /* MapView.swift */; };
+		E096FF98262F360E0011BC92 /* AccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E096FF97262F360E0011BC92 /* AccessView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E00CDC97262E200D005991F1 /* MKPointAnnotation-Codable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Codable.swift"; sourceTree = "<group>"; };
+		E024AD52262764390045258A /* MKPointAnnotation-Object.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKPointAnnotation-Object.swift"; sourceTree = "<group>"; };
+		E024AD55262764E20045258A /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		E024AD58262766BE0045258A /* Result.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Result.swift; sourceTree = "<group>"; };
 		E03250862623941300CBAC90 /* BucketList Examples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "BucketList Examples.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E03250892623941300CBAC90 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E032508B2623941300CBAC90 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,8 @@
 		E03250922623941400CBAC90 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E03250952623941400CBAC90 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E03250972623941400CBAC90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E06316402625B55A00D44E10 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		E096FF97262F360E0011BC92 /* AccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +71,12 @@
 				E03250892623941300CBAC90 /* AppDelegate.swift */,
 				E032508B2623941300CBAC90 /* SceneDelegate.swift */,
 				E032508D2623941300CBAC90 /* ContentView.swift */,
+				E096FF97262F360E0011BC92 /* AccessView.swift */,
+				E024AD58262766BE0045258A /* Result.swift */,
+				E024AD52262764390045258A /* MKPointAnnotation-Object.swift */,
+				E024AD55262764E20045258A /* EditView.swift */,
+				E00CDC97262E200D005991F1 /* MKPointAnnotation-Codable.swift */,
+				E06316402625B55A00D44E10 /* MapView.swift */,
 				E032508F2623941400CBAC90 /* Assets.xcassets */,
 				E03250942623941400CBAC90 /* LaunchScreen.storyboard */,
 				E03250972623941400CBAC90 /* Info.plist */,
@@ -146,7 +164,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E032508A2623941300CBAC90 /* AppDelegate.swift in Sources */,
+				E096FF98262F360E0011BC92 /* AccessView.swift in Sources */,
+				E06316412625B55A00D44E10 /* MapView.swift in Sources */,
+				E024AD56262764E20045258A /* EditView.swift in Sources */,
+				E024AD53262764390045258A /* MKPointAnnotation-Object.swift in Sources */,
+				E024AD59262766BE0045258A /* Result.swift in Sources */,
 				E032508C2623941300CBAC90 /* SceneDelegate.swift in Sources */,
+				E00CDC98262E200D005991F1 /* MKPointAnnotation-Codable.swift in Sources */,
 				E032508E2623941300CBAC90 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
